@@ -26,3 +26,6 @@
 
 ### Step 2, login:
 ![This is an image](/assets/login-for-generate-jwt-before-exec.png)
+
+###### After exec
+![This is an image](/assets/login-for-generate-jwt-after-exec.png)
