@@ -16,5 +16,7 @@
 - pymongo==3.12.1
 ```
 
-## Step 1, test generate token using JSON Web Token
+## Generate token using JSON Web Token
+### Step 1, create user:
 ![This is an image](/assets/create-user-before-exec.png)
+
