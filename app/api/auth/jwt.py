@@ -17,7 +17,7 @@ from app.core.config import settings
 auth_router = APIRouter()
 
 
-@auth_router.post('/login', summary="Create access and refresh tokens for user", response_model=TokenSchema)
+@auth_router.post('/generate-token', summary="Create access and refresh tokens for user", response_model=TokenSchema)
 async def login(form_data: OAuth2PasswordRequestForm = Depends()) -> Any:
     user = await UserService.authenticate(email=form_data.username, password=form_data.password)
     if not user:
@@ -32,7 +32,7 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends()) -> Any:
     }
 
 
-@auth_router.post('/test-token', summary="Test if the access token is valid",
+@auth_router.post('/hello', summary="Test if the access token is valid",
                   response_model=UserOut)
 async def test_token(user: User = Depends(get_current_user)):
     return user

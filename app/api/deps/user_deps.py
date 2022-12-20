@@ -10,7 +10,7 @@ from app.models.user_model import User
 from app.schemas.auth_schema import TokenPayload
 from app.services.user_service import UserService
 
-reusable_oauth = OAuth2PasswordBearer(tokenUrl=f"{settings.API_V1_STR}/auth/login",
+reusable_oauth = OAuth2PasswordBearer(tokenUrl=f"{settings.API_V1_STR}/auth/generate-token",
                                       scheme_name="JWT")
 
 
