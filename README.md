@@ -19,4 +19,4 @@
 ## Generate token using JSON Web Token
 ### Step 1, create user:
 ![This is an image](/assets/create-user-before-exec.png)
-
+![This is an image](/assets/create-user-after-exec.png)
