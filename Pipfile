@@ -4,6 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+python-jose = {extras = ["cryptography"], version = "*"}
+passlib = {extras = ["bcrypt"], version = "*"}
+python-multipart = "*"
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+schemas = "*"
+pydantic = "*"
+beanie = "*"
+email-validator = "*"
+python-decouple = "*"
+pymongo = "==3.12.1"
 
 [dev-packages]
 
