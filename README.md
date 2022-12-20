@@ -17,4 +17,4 @@
 ```
 
 ## Step 1, test generate token using JSON Web Token
-![This is an image]()
+![This is an image]('/assets/create-user-before-exec.png')
