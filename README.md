@@ -46,6 +46,3 @@
 
 ### Step 4, verifying token test
 ![This is an image](/assets/test-token-before.png)
-
-###### After exec
-![This is an image](/assets/test-token-after.png)
